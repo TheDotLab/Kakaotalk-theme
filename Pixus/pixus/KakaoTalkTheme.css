@@ -5,7 +5,7 @@
 ManifestStyle
 {
     -kakaotalk-theme-name: 'Pixus';
-    -kakaotalk-theme-version: '1.5.0';
+    -kakaotalk-theme-version: '1.7.0';
     -kakaotalk-theme-url: 'https://thedotlab.github.io/';
     -kakaotalk-author-name: 'Twiright';
     -kakaotalk-theme-id: 'com.twiright.theme.pixusios';
@@ -64,8 +64,8 @@ MainViewStyle-Primary
     -ios-background-image: 'mainBgImage.png';
 
     /* 텍스트 스타일 */										/* 이름변경 */
-    -ios-text-color: #54f054;                       		/* Title : 리스트 목록*/
-    -ios-highlighted-text-color: #18e718;                   	/* Title Pressed */
+    -ios-text-color: #19843e;                       		/* Title : 리스트 목록*/
+    -ios-highlighted-text-color: #193c3e;                   	/* Title Pressed */
     
     -ios-description-text-color: #4c793d;               	/* Description : 상태메세지 */
     -ios-description-highlighted-text-color: #4c793d;   	/* Description Pressed */
@@ -136,7 +136,7 @@ BackgroundStyle-ChatRoom
 InputBarStyle-Chat
 {
     /* 입력창 배경 */
-    background-color: #014d0b;
+    background-color: #72ff85;
     
     /* 전송 버튼 */
     -ios-send-normal-background-color: #22c01c;
@@ -166,7 +166,7 @@ MessageCellStyle-Send
 
     -ios-text-color: #011800;
     -ios-selected-text-color: #011800;
-    -ios-unread-text-color: #21f819;
+    -ios-unread-text-color: #011800;
 }
 
 MessageCellStyle-Receive
