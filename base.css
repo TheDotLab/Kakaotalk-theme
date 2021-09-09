@@ -1,0 +1,36 @@
+/* Import GongGothicMedium */
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ----------------------------------------------------------------------- */
+
+/* Backwards Compatibility */
+
+:root {
+	--line-spacing: var(--message-line-spacing);
+}
+
+/* Apply styles */
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: 'GongGothicMedium', 'Whitney', sans-serif !important;
+    word-spacing: var(--word-spacing, initial);
+    letter-spacing: var(--letter-spacing, initial);
+}
+
+/* Adjust formatted text line-height */
+
+[class*="messageContent-" i] {
+    line-height: var(--message-line-spacing, initial) !important;
+}
+
+/* Scale up timestamps & "Edited" text */
+
+[class*="group-spacing" i] [class*="timestamp"],
+[class*="messageContent-" i] time {
+    font-size: .9rem;
+}
